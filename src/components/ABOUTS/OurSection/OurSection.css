@@ -1,0 +1,151 @@
+
+
+.info-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.info-text {
+    flex: 1;
+    min-width: 280px;
+    max-width: 600px;
+
+}
+
+.info {
+   
+    margin-bottom: 1.5rem;
+ 
+
+}
+/* Headings inside info blocks */
+.info h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #0d1b3d;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Paragraphs inside info blocks */
+  .info p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Bold headings in each section */
+  .info01 h2,
+  .info02 h2,
+  .info03 h2 {
+    font-weight: 800;
+  }
+  
+  /* If you want to slightly increase font size in different blocks */
+  .info01 p {
+    font-size: 1.05rem;
+  }
+  
+  .info02 p {
+    font-size: 1.05rem;
+  }
+  
+  .info03 p {
+    font-size: 1.05rem;
+  }
+
+.info01 {
+  
+   
+
+padding: 30px;
+border-radius: 15px;
+background-color: rgb(216, 241, 139);
+
+}
+.info01:hover{
+
+    background-color: rgb(175, 202, 101);
+
+}
+
+
+.info02 {
+    padding: 30px;
+    border-radius: 15px;
+    background-color: rgb(195, 240, 180);
+
+}
+.info02:hover{
+
+    background-color: rgb(160, 214, 141);
+
+}
+
+
+.info03 {
+    padding: 30px;
+    border-radius: 15px;
+    background-color: rgb(205, 183, 236);
+
+}
+.info03:hover{
+
+    background-color: rgb(174, 145, 212);
+
+}
+
+
+
+.info h2 {
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.info p {
+    font-size: 1rem;
+    color: #333333;
+    line-height: 1.6;
+}
+
+.info-image {
+    flex: 1;
+    max-width: 600px;
+
+}
+
+.info-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .info-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .info-text,
+    .info-image {
+        max-width: 100%;
+    }
+
+    .info h2 {
+        font-size: 1.4rem;
+    }
+
+    .info p {
+        font-size: 0.95rem;
+    }
+}
