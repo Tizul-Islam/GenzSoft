@@ -56,7 +56,7 @@ const About = () => {
 <OutSection/>
 <div className="services-section">
       <h2 className="text-4xl font-bold font-size: 2.5rem; text-center p-8 colo text-[#63b309]">Meet Our Team</h2>
-      <Abouts data={About} />
+      {/* <Abouts data={About} /> */}
       
 <Teams/>
 

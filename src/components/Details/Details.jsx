@@ -12,7 +12,7 @@ const Details = () => {
 <Navbar/>
 
 <DetailsSection/>
-<DetailsOption/>
+{/* <DetailsOption/> */}
 <Footer/>
         </div>
     );
